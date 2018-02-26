@@ -6,5 +6,5 @@ def my_each(collection)
     new_array << yield(array[i])
     i = i + 1
   end
-  collection
+  new_array
 end
