@@ -3,7 +3,7 @@ def my_each(collection)
   new_array = []
   while i < collections.length 
   
-    new_array << yield
+    new_array << yield(array[i])
     i = i + 1
   end
   collection
